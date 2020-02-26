@@ -12,4 +12,5 @@ spec:
       command: ["/bin/sh", "-c"]
       args:
         - echo "Hello, world.";
+        - free
   volumes:
