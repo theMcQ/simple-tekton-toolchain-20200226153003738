@@ -12,5 +12,4 @@ spec:
       command: ["/bin/sh", "-c"]
       args:
         - echo "Hello, world.";
-          git clone -q -b $REVISION $REPOSITORY .;
   volumes:
