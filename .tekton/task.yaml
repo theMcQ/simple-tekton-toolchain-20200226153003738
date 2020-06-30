@@ -11,6 +11,11 @@ spec:
       env:
       command: ["/bin/sh", "-c"]
       args:
-        - echo "Hello, world.";
+        - echo "Start time:";
+          date;
+          sleep 20;
+          echo "After sleep:";
+          date;
+          echo "Free memory:";
           free;
   volumes:
